@@ -1,0 +1,23 @@
+.header-title {
+  max-width: 802px;
+  padding: 10px;
+  margin: 0 auto;
+  color: $main-white-color;
+  text-align: center;
+}
+
+.header-title__name {
+  font-size: 72px;
+  font-family: 'Kaushan Script', sans-serif;
+  font-weight: 400;
+  margin-bottom: 42px;
+}
+
+.header-title__text {
+  font-size: 130px;
+  line-height: 140px;
+  font-family: $main-font-stack;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 122px;
+}

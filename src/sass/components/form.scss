@@ -1,0 +1,17 @@
+.form__email {
+  font-size: 15px;
+  color: #CCCCCC;
+  width: 231px;
+  height: 41px;
+  border: none;
+  background-color: #FFFFFF;
+}
+
+.form-button {
+  text-transform: uppercase;
+  font-size: $main-font;
+  color: $main-white-color;
+  width: 151px;
+  height: 41px;
+  background-color: $bt-form;
+}

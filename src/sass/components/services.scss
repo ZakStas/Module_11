@@ -1,0 +1,38 @@
+.services {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.services__item {
+  width: 350px;
+  padding-left: 82px;
+  margin-top: 66px;
+  background-position-x: 20px;
+  background-position-y: 0;
+  background-repeat: no-repeat;
+}
+
+.services__item::before {
+  content: '';
+  display: block;
+  float: left;
+  height: 32px;
+  background-position-x: center;
+  background-position-y: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.services__name {
+  font-size: 14px;
+  color: #333333;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.services__description {
+  font-size: $secondary-font;
+  color: $men-color;
+}
+

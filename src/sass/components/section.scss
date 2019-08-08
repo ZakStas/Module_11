@@ -1,0 +1,39 @@
+.section {
+  margin-top: 56px;
+  margin-bottom: 88px;
+
+  &__title {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    color: $main-black-color;
+    font-weight: 400;
+  }
+
+  &__name {
+    text-align: center;
+    font-size: 30px;
+    color: $main-black-color;
+    font-weight: 700;
+    margin-top: 12px;
+    text-transform: uppercase;
+  }
+
+  &__name::after {
+    @include pseudo;
+    margin: 0 auto;
+    width: 61px;
+    height: 4px;
+    margin-top: 31px;
+    background-color: $deesign-color;
+  }
+
+  &__descr {
+    margin-top: 46px;
+    text-align: center;
+    color: $men-color;
+    font-size: $secondary-font;
+    line-height: 24px;
+    margin-bottom: 90px;
+  }
+}

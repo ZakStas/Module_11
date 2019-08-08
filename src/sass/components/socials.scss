@@ -1,0 +1,34 @@
+.socials {
+  @include center_flex_row('spbt/center');
+  width: 224px;
+}
+
+.socials__item {
+  @include center_flex_row('all');
+  align-content: center;
+  text-align: center;
+  width: 56px;
+  height: 56px;
+  background-color: rgb(252, 227, 138);
+  border-right: 1px solid rgb(243, 129, 129);
+}
+
+.socials__item:nth-last-child(-n + 1) {
+  border-right: none;
+}
+
+.socials__item:hover {
+  background-color: $deesign-color;
+}
+
+.socials__icon {
+  fill: $deesign-color;
+  display: block;
+  height: 30px;
+  width: 100%;
+  margin: 0 auto;
+
+  &:hover {
+    fill: $main-white-color;
+  }
+}

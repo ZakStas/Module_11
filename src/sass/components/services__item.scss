@@ -1,0 +1,47 @@
+.services__item--photography {
+  background-image: url('../images/ico/alarm.png');
+}
+
+.services__item--web {
+  background-image: url('../images/ico/line_graph.png');
+}
+
+.services__item--create {
+  background-image: url('../images/ico/computer__ok.png');
+}
+
+.services__item--seo {
+  background-image: url('../images/ico/book_2.png');
+}
+
+.services__item--css {
+  background-image: url('../images/ico/home.png');
+}
+
+.services__item--digital {
+  background-image: url('../images/ico/digital.png');
+}
+
+.services__item--photography::before {
+  background-image: url('../images/ico/alarm@2x.png');
+}
+
+.services__item--web::before {
+  background-image: url('../images/ico/line_graph@2x.png');
+}
+
+.services__item--create::before {
+  background-image: url('../images/ico/computer__ok@2x.png');
+}
+
+.services__item--seo::before {
+  background-image: url('../images/ico/book@2x.png');
+}
+
+.services__item--css::before {
+  background-image: url('../images/ico/home@2x.png');
+}
+
+.services__item--digital::before {
+  background-image: url('../images/ico/digital@2x.png');
+}

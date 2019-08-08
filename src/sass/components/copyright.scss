@@ -1,0 +1,16 @@
+.copyright {
+  @include center_flex_row('horspbt');
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 20px;
+
+  &__text {
+    font-size: $main-font;
+    color: $main-black-color;
+    opacity: 1;
+  }
+
+  &__design {
+    color: $deesign-color;
+  }
+}
